@@ -2,6 +2,10 @@ pip install pillow pytesseract mss
 
 pip install git+https://github.com/JaidedAI/EasyOCR.git && pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
 
+https://software-network.org/client/sw-x86_64-setup.exe
+open cmd : sw setup
+open cmd: sw build org.sw.demo.google.tesseract.tesseract
+
 
 pip install opencv-python
 

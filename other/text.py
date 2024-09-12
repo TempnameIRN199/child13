@@ -6,7 +6,7 @@ last_time = time.time()
 reader = easyocr.Reader(['en'], gpu=False)
 
 # Распознавание текста с изображения
-result = reader.readtext('data/image.png', detail=0)
+result = reader.readtext('data/processed_image.png', detail=0)
 
 # Вывод распознанного текста
 for text in result:
