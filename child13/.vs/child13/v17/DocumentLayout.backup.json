@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|c:\\users\\vitya\\onedrive\\documents\\github\\child13\\child13\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\models\\coordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|solutionrelative:models\\coordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\views\\coordinaterecorder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\views\\coordinaterecorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|solutionrelative:views\\coordinaterecorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\models\\coordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C821407-48EC-47E9-A9CF-77A01651F2F5}|child13.csproj|solutionrelative:models\\coordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 198,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -46,32 +46,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Coordinate.cs",
               "DocumentMoniker": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\Models\\Coordinate.cs",
               "RelativeDocumentMoniker": "Models\\Coordinate.cs",
               "ToolTip": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\Models\\Coordinate.cs",
               "RelativeToolTip": "Models\\Coordinate.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T15:52:43.038Z"
+              "WhenOpened": "2024-09-10T15:52:43.038Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CoordinateRecorder.xaml.cs",
               "DocumentMoniker": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\Views\\CoordinateRecorder.xaml.cs",
               "RelativeDocumentMoniker": "Views\\CoordinateRecorder.xaml.cs",
               "ToolTip": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\Views\\CoordinateRecorder.xaml.cs",
               "RelativeToolTip": "Views\\CoordinateRecorder.xaml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAgwE8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAgwFYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T15:17:14.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CoordinateRecorder.xaml",
               "DocumentMoniker": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\Views\\CoordinateRecorder.xaml",
               "RelativeDocumentMoniker": "Views\\CoordinateRecorder.xaml",
@@ -82,13 +83,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\child13\\child13\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAApwEAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T14:32:35.31Z",
               "EditorCaption": ""
