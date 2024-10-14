@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kuma\\source\\repos\\child13_AI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|C:\\Users\\kuma\\source\\repos\\child13_AI\\views\\coordinaterecorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|solutionrelative:views\\coordinaterecorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|c:\\users\\kuma\\source\\repos\\child13_ai\\additionalstructures\\service\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|solutionrelative:additionalstructures\\service\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|C:\\Users\\kuma\\source\\repos\\child13_AI\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|C:\\Users\\kuma\\source\\repos\\child13_AI\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|C:\\Users\\kuma\\source\\repos\\child13_AI\\views\\api_check.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|solutionrelative:views\\api_check.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|C:\\Users\\kuma\\source\\repos\\child13_AI\\views\\api_check.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{245D3B8B-4D49-492B-A13C-76D45589E800}|child13_AI.csproj|solutionrelative:views\\api_check.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 198,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "API.cs",
+              "DocumentMoniker": "C:\\Users\\kuma\\source\\repos\\child13_AI\\AdditionalStructures\\Service\\API.cs",
+              "RelativeDocumentMoniker": "AdditionalStructures\\Service\\API.cs",
+              "ToolTip": "C:\\Users\\kuma\\source\\repos\\child13_AI\\AdditionalStructures\\Service\\API.cs",
+              "RelativeToolTip": "AdditionalStructures\\Service\\API.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:10:01.568Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoordinateRecorder.xaml",
+              "DocumentMoniker": "C:\\Users\\kuma\\source\\repos\\child13_AI\\Views\\CoordinateRecorder.xaml",
+              "RelativeDocumentMoniker": "Views\\CoordinateRecorder.xaml",
+              "ToolTip": "C:\\Users\\kuma\\source\\repos\\child13_AI\\Views\\CoordinateRecorder.xaml",
+              "RelativeToolTip": "Views\\CoordinateRecorder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-11T18:28:57.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "API_Check.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kuma\\source\\repos\\child13_AI\\Views\\API_Check.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\API_Check.xaml.cs",
+              "ToolTip": "C:\\Users\\kuma\\source\\repos\\child13_AI\\Views\\API_Check.xaml.cs",
+              "RelativeToolTip": "Views\\API_Check.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T14:50:34.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kuma\\source\\repos\\child13_AI\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kuma\\source\\repos\\child13_AI\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T14:41:54.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "API_Check.xaml",
+              "DocumentMoniker": "C:\\Users\\kuma\\source\\repos\\child13_AI\\Views\\API_Check.xaml",
+              "RelativeDocumentMoniker": "Views\\API_Check.xaml",
+              "ToolTip": "C:\\Users\\kuma\\source\\repos\\child13_AI\\Views\\API_Check.xaml",
+              "RelativeToolTip": "Views\\API_Check.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-11T14:39:23.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kuma\\source\\repos\\child13_AI\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kuma\\source\\repos\\child13_AI\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-11T14:21:56.227Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
