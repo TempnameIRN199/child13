@@ -5,9 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:child13.Views"
         mc:Ignorable="d"
-        Title="CoordinateRecorder" Height="150" Width="200" Closing="Window_Closing">
-    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-        <TextBlock x:Name="TimerTextBlock" FontSize="30" HorizontalAlignment="Center" Margin="10"/>
-        <Button Content="Start Timer" Click="StartTimerButton_Click" Width="100" Margin="10"/>
-    </StackPanel>
+         Title="CoordinateRecorder" Height="150" Width="250" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock x:Name="TimerTextBlock" FontSize="30" HorizontalAlignment="Center" Margin="10"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Content="Start Timer" Click="StartTimerButton_Click" Width="100" Margin="10"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Content="Start Timer" Click="StartTimerButton1_Click" Width="100" Margin="10"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
 </Window>

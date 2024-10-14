@@ -1,7 +1,9 @@
-﻿using System;
+﻿using child13.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -12,8 +14,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
-
-using _crd = child13.Models;
 
 namespace child13.Views
 {
@@ -28,63 +28,77 @@ namespace child13.Views
         2. Начинается отчет времени после нажатия на кнопку и выводится на экран
         3. Необходимо перенести курсор в нужное место для записи первых двух координат
         4. После чего повторить действие для записи следующих двух координат
-         */
+        */
 
-        public int x1, x2, y1, y2;
-        private DispatcherTimer _timer;
-        private TimeSpan _timeLeft;
+        public int x1 = 0, x2 = 0, y1 = 0, y2 = 0;
+        private readonly Coordinate coordinate = new Coordinate();
+        private DispatcherTimer _countdownTimer;
+        private int _remainingSeconds;
 
-        public _crd.Coordinate coordinate = new _crd.Coordinate();
-
-        public CoordinateRecorder(_crd.Coordinate coord)
+        public CoordinateRecorder()
         {
             InitializeComponent();
-            coordinate = coord;
-            _timeLeft = TimeSpan.FromSeconds(2);
-            TimerTextBlock.Text = _timeLeft.ToString("c");
-        }
-
-        private void StartTimerButton_Click(object sender, RoutedEventArgs e)
-        {
-            _timer = new DispatcherTimer();
-            _timer.Interval = TimeSpan.FromSeconds(1); // Интервал таймера в 1 секунду
-            _timer.Tick += Timer_Tick;
-            _timer.Start();
-            MessageBox.Show("Установите курсор на первую координату");
+            _countdownTimer = new DispatcherTimer();
+            _countdownTimer.Interval = TimeSpan.FromSeconds(1);
         }
 
         private void Timer_Tick(object sender, EventArgs e)
         {
-            if (_timeLeft.TotalSeconds > 0)
+            if (_remainingSeconds > 0)
             {
-                _timeLeft = _timeLeft.Add(TimeSpan.FromSeconds(-1));
-                TimerTextBlock.Text = _timeLeft.ToString("c");
+                _remainingSeconds--;
+                TimerTextBlock.Text = $"Залишилось: {_remainingSeconds} секунд";
             }
             else
             {
-                if (x1 == 0 && x2 == 0 && x2 == 0 && y2 == 0 ||
-                x1 != 0 && y1 != 0 && x2 == 0 && y2 == 0)
+                _countdownTimer.Stop();
+                TimerTextBlock.Text = "Час вийшов!";
+                if(x1 == 0 && y1 == 0)
                 {
-                    if (x1 == 0 && x2 == 0)
-                    {
-                        x1 = Convert.ToInt32(Mouse.GetPosition(this).X);
-                        y1 = Convert.ToInt32(Mouse.GetPosition(this).Y);
-                    }
-                    else
-                    {
-                        x2 = Convert.ToInt32(Mouse.GetPosition(this).X);
-                        y2 = Convert.ToInt32(Mouse.GetPosition(this).Y);
-                    }
+                    x1 = Convert.ToInt32(Mouse.GetPosition(this).X);
+                    y1 = Convert.ToInt32(Mouse.GetPosition(this).Y);
                 }
-                _timer.Stop();
-                MessageBox.Show("unlink!");
+                else
+                {
+                    x2 = Convert.ToInt32(Mouse.GetPosition(this).X);
+                    y2 = Convert.ToInt32(Mouse.GetPosition(this).Y);
+                }
             }
         }
 
+        private void StartTimerButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (!_countdownTimer.IsEnabled)
+            {
+                // Встановлюємо значення для зворотного відліку (наприклад, 10 секунд)
+                _remainingSeconds = 10;
+                TimerTextBlock.Text = $"Залишилось: {_remainingSeconds} секунд";
+                _countdownTimer.Tick += Timer_Tick;
+                _countdownTimer.Start();
+            }
+
+            MessageBox.Show("unlink!");
+        }
+        private void StartTimerButton1_Click(object sender, RoutedEventArgs e)
+        {
+            if (!_countdownTimer.IsEnabled)
+            {
+                // Встановлюємо значення для зворотного відліку (наприклад, 10 секунд)
+                _remainingSeconds = 10;
+                TimerTextBlock.Text = $"Залишилось: {_remainingSeconds} секунд";
+                _countdownTimer.Start();
+                x2 = Convert.ToInt32(Mouse.GetPosition(this).X);
+                y2 = Convert.ToInt32(Mouse.GetPosition(this).Y);
+            }
+            MessageBox.Show("unlink!");
+        }
+        
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            // при закрытие окна устанавливать координаты в модель
-            coordinate.GetCoordinates(x1, x2, y1, y2);
+            coordinate.SetCoordinates(x1, x2, y1, y2);
+            MessageBox.Show("x1: " + x1 + " x2: " + x2 + " y1: " + y1 + " y2: " + y2);
         }
+
+
     }
 }
